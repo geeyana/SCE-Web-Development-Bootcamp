@@ -1,0 +1,90 @@
+body {
+  font-family: "Fraunces", sans-serif;
+  background-color: #ffc8dc;
+  background-image: linear-gradient(rgba(255,200,220, 0), rgba(255,200,220, 1)), url('background.gif');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fraunces {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  padding: 30px;
+  background-color: white;
+  border-radius: 16px;
+  border: 3px solid	#ffdde9;
+  text-align: center;
+  box-shadow: 5px 5px 10px #ffc8dc;
+}
+
+.pfp {
+  border-radius: 50%;
+  height: 150px;
+  width: auto;
+  border: 3px solid #ffdde9;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.skills li {
+  background-color: #fde4f2;
+  border-radius: 20px; 
+  padding: 5px 15px; 
+  color: #333;
+  font-size: 1rem;
+  border: solid transparent 3px;
+}
+.skills li:hover {
+  border: solid 3px #f9cee7;
+  transition: border 0.3s;
+  cursor: pointer;
+}
+
+button {
+  color: white;
+  font-family: "Caprasimo";
+  background-color: #e68bbe;
+  border: none;
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  font-size: 1.0rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #f4b8da;
+  transition: background-color 0.3s;
+}
+button:focus {
+  background-color: #fde4f2;
+  transition: background-color 0.1s;
+}

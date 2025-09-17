@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/images/icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <div class="center-items">
+          <img src="assets/images/mama-clapping.gif" alt="mama clapping" height="175px" width="auto">
+          <img src="assets/images/logo.png" alt="logo">
+          <img src="assets/images/mama-sparkles.gif" alt="mama sparkling" height="175px" width="auto">
+        </div>
+      </header>
+
+      <div class="main-cont">
+        <div class="cont-title">
+          <img src="assets/images/left.png" alt="menu">
+          <img src="assets/images/menu.png" alt="menu">
+          <img src="assets/images/right.png" alt="menu">
+        </div>
+
+        <div class="recipe-boxes">
+
+          <div class="card-container">
+            <h1 class="card-title">Curries</h1>
+            <a href="recipes/curries.html">
+              <div class="card">
+                <img src="assets/images/curry.png">
+                <p class="card-text">
+                  A plate of plain white (or flavored) rice portioned evenly with sauce filled with 
+                  chunks of meat. The dish varies in spicy-ness depending on the tolerancy of the one 
+                  eating the dish, or where its made.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-container">
+            <h1 class="card-title">Omelets</h1>
+            <a href="recipes/omelets.html">
+              <div class="card">
+                <img src="assets/images/omelet.png">
+                <p class="card-text">
+                  Also known as omurice, a semi-popular Japanese dish that is basically composed of 
+                  rice that is cooked inside a French omelet. It can be a little difficult to make at 
+                  first, but it is very tasty.
+              </div>
+            </a>
+          </div>
+
+          <div class="card-container">
+            <h1 class="card-title">Soups</h1>
+            <a href="recipes/soups.html">
+              <div class="card">
+                <img src="assets/images/soup.png">
+                <p class="card-text">
+                  Miso soup is made with dashi, a stock made of kelp, bonito flakes, and fermented 
+                  soybean paste known as miso. The dashi softens the miso into a thin liquid.
+                </p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>Sources:
+          <a href="https://cookingmama.fandom.com/wiki/Foods" target="_blank">Cooking Mama Wiki</a>, 
+          <a href="https://github.com/tholman/cursor-effects" target="_blank">Cursor Effects</a>, 
+          <a href="https://sounds.spriters-resource.com/ds_dsi/cookingmama/asset/427381/" target="_blank">Sounds</a>
+        </p>
+      </footer>
+    </div>
+
+  <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+  <script>
+    window.addEventListener("load", (event) => {
+      new cursoreffects.fairyDustCursor();
+    });
+  </script>
+  </body>
+</html>
