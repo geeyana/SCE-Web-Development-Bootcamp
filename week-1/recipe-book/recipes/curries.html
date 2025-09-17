@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Curry</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../assets/images/icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="main">
+      <h1 class="main-header">Pork Curry and Rice</h1>
+      <img class="main-pic" src="../assets/images/curry-pic.jpg">
+
+      <div class="mama-talking">
+        <div class="dialogue">
+          <b>Ingredients:</b>
+            <ul>
+              <li>Potato</li>
+              <li>Carrot</li>
+              <li>Onion</li>
+              <li>Pork</li>
+              <li>Water</li>
+              <li>Curry Roux</li>
+            </ul>
+        </div>
+        <img src="../assets/images/mama.gif">
+      </div>
+    </div>
+  </body>
+
+  <audio id="click" src="../assets/audio/JYOUCHU_18.WAV" preload="auto"></audio>
+  <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+  <script>
+    window.onload = function() {
+      const audio = document.getElementById('click');
+      audio.play();
+    };
+
+    window.addEventListener("load", (event) => {
+      new cursoreffects.fairyDustCursor();
+    });
+  </script>
+</html>
